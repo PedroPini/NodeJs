@@ -16,16 +16,16 @@ Node é uma plataforma que envia seu código para ser compilado pela máquina vi
 Você precisa ter um conhecimento prévio de javascript.
 
 
-##Explicação do código
-para usar solicitações via http
+### Explicação do código
+Para usar solicitações via http
  como get e post, é preciso
- importar estar biblioteca
+ importar a biblioteca http.
 
 ```
 var http  = require('http');
 ```
 
-usamos a variavel http que recebe os metodos
+Usamos a variavel http que recebe os metodos
 da biblioteca acima e usamos o metodo create
 server que criara um servidor, para o servidor funcionar
 temos que criar uma resposta por isso utilizamos o res.end
@@ -38,7 +38,8 @@ var server = http.createServer(function(req,res){
 
 Até aqui temos um servidor quase perfeito,
  só está faltando usarmos o metodo listen,
-  pois com este método seremos capazes de "ouvir" por uma porta, isso faz que sejamos especificos onde queremos ver a página funcionando
+  pois com este método seremos capazes de "ouvir" por uma porta,
+   isso faz que sejamos especificos na url, onde queremos ver a página funcionando.
   ```
 server.listen(4000);
 ```
@@ -55,11 +56,11 @@ console.log("Servidor Funcionando");
 
 * [NodeJs](https://nodejs.org/en/) - Plataforma usada
 * [GITHUB](https://github.com/) - Versionador
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Portfolio](https://pedropini.com) - Meu Portfolio
 
 
 
 
 ## Authors
 
-* **Pedro Pini** - *Tudo* - [:)](github.com/PedroPini)
+* **Pedro Pini**  *Tudo*  [:)](github.com/PedroPini)
